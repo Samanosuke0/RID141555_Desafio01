@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* HEADER */
+#menusuperior {
+    background-color: #303030;
+    color: white;
+    padding: 150px 0 100px 62px;
+}
+
+#titulosuperior {
+    font-size: 50px;
+    margin-bottom: 20px;
+    max-width: 900px;
+}
+
+#textosuperior {
+    font-size: 18px;
+}
+
+/* MENU INFORMACIONAL */
+#menuinformacional {
+    background-color: #F9F9F9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* CONTEÚDO PRINCIPAL */
+#menuinferior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 80px auto;
+    padding: 0 62px;
+    gap: 60px;
+}
+
+#menuinferior .conteudo {
+    flex: 1;
+}
+
+#menuinferior h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #303030;
+    text-align: right;
+}
+
+#menuinferior p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+}
+
+#arquiteturafoto {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* FORMULÁRIO */
+#menuformulario {
+    background-color: #303030;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#menuformulario h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+#menuformulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#menuformulario input {
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    background-color: #EAECE5;
+    border: none;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #C07212;
+    color: white;
+    height: 50px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1a5a75;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    #menusuperior {
+        padding: 100px 30px;
+        text-align: center;
+    }
+    
+    #menuinferior {
+        flex-direction: column;
+        padding: 0 30px;
+        margin: 50px auto;
+    }
+    
+    #arquiteturafoto {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    
+    #menuformulario {
+        padding: 60px 20px;
+    }
+}
