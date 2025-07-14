@@ -72,5 +72,9 @@ Este projeto foi desenvolvido durante meus estudos em \*\*HTML estrutural, CSS r
 
 
 
-\## 📁 Estrutura do Projeto
+\## 📁 Estrutura do Projeto- Links
+
+Planilha:https://docs.google.com/spreadsheets/d/1PnwSh1JygrUB5IDHZpnLAt7erjN0Da-6ULJDmo6vD0g/edit?usp=sharing
+
+Site: https://archeanarch.netlify.app/
 
